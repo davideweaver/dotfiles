@@ -5,4 +5,5 @@ tap 'homebrew/bundle'
 brew 'ack'
 brew 'wget'
 
-cask hyper
+cask 'hyper'
+cask 'postman'
