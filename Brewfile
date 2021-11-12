@@ -7,3 +7,6 @@ brew 'wget'
 
 cask 'hyper'
 cask 'postman'
+cask 'signal'
+cask 'visual-studio-code'
+
