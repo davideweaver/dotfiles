@@ -1,3 +1,7 @@
+[include]
+        path = ~/.gitconfig.local
+[core]
+        excludesfile = ~/.gitignore
 [filter "lfs"]
         process = git-lfs filter-process
         required = true
