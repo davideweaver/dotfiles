@@ -4,7 +4,6 @@ tap 'homebrew/bundle'
 
 brew 'ack'
 brew 'wget'
-brew 'docker-machine'
 brew 'mackup'
 brew 'mas'
 
@@ -14,6 +13,7 @@ cask 'signal'
 cask 'visual-studio-code'
 cask 'spectacle'
 cask 'runjs'
+cask 'docker'
 
 mas "1Password 7", id: 1333542190
 mas "Affinity Designer", id: 824171161
