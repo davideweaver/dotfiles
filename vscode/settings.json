@@ -1,88 +1,88 @@
 {
-    "workbench.colorTheme": "Default Light+",
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "workbench.iconTheme": "vs-minimal",
-    "workbench.tree.renderIndentGuides": "none",
-    "editor.formatOnSave": false,
-    "editor.formatOnPaste": false,
-    "editor.rulers": [120],
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "editor.wrappingIndent": "none",
-    "gitlens.codeLens.enabled": false,
-    "mochaExplorer.files": "test/**/*.test.ts",
-    "mochaExplorer.require": "ts-node/register",
-    "mochaExplorer.logpanel": true,
-    "mochaExplorer.mochaPath": "node_modules/mocha",
-    "mochaExplorer.monkeyPatch": false,
-    "mochaExplorer.timeout": 200000,
-    "mochaExplorer.env": {
-      "NODE_ENV": "test"
-    },
-    "mochaExplorer.nodePath": "/Users/dweaver/.nvm/versions/node/v12.19.0/bin/node",
-    "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.renderControlCharacters": false,
-    "editor.renderWhitespace": "none",
-    "code-runner.defaultLanguage": "javascript",
-    "git.enableSmartCommit": true,
-    "todo-tree.tree.showScanModeButton": false,
-    "sync.forceUpload": false,
-    "sync.autoUpload": true,
-    "sync.autoDownload": false,
-    "sync.gist": "58372dbe7976a86972d4c7c94b6faceb",
-    "sync.forceDownload": false,
-    "workbench.colorCustomizations": {
-      "sideBar.background": "#E5E5E5",
-      "activityBarBadge.background": "#007acc",
-      "activityBar.background": "#E5E5E5",
-      "activityBar.foreground": "#333333",
-      "statusBar.background": "#999999",
-      "statusBar.foreground": "#eeeeee",
-      "titleBar.activeBackground": "#E5E5E5",
-      "list.inactiveSelectionBackground": "#d1d1d1",
-      "tab.inactiveBackground": "#d8d8d8",
-      "tab.border": "#c1c1c1"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "gitlens.gitCommands.skipConfirmations": [
-      "fetch:command",
-      "stash-push:command",
-      "switch:command",
-      "tag-create:command"
-    ],
-    "diffEditor.maxComputationTime": 0,
-    "todo-tree.general.tags": [
-      "BUG",
-      "HACK",
-      "FIXME",
-      "TODO",
-      "XXX",
-      "[ ]",
-      "[x]"
-    ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "window.zoomLevel": 1
-  }
+  "workbench.colorTheme": "Default Light+",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.rulers": [120],
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.wrappingIndent": "none",
+  "gitlens.codeLens.enabled": false,
+  "mochaExplorer.files": "test/**/*.test.ts",
+  "mochaExplorer.require": "ts-node/register",
+  "mochaExplorer.logpanel": true,
+  "mochaExplorer.mochaPath": "node_modules/mocha",
+  "mochaExplorer.monkeyPatch": false,
+  "mochaExplorer.timeout": 200000,
+  "mochaExplorer.env": {
+    "NODE_ENV": "test"
+  },
+  "mochaExplorer.nodePath": "/Users/dweaver/.nvm/versions/node/v12.19.0/bin/node",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "code-runner.defaultLanguage": "javascript",
+  "git.enableSmartCommit": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "sync.forceUpload": false,
+  "sync.autoUpload": true,
+  "sync.autoDownload": false,
+  "sync.gist": "58372dbe7976a86972d4c7c94b6faceb",
+  "sync.forceDownload": false,
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#E5E5E5",
+    "activityBarBadge.background": "#007acc",
+    "activityBar.background": "#E5E5E5",
+    "activityBar.foreground": "#333333",
+    "statusBar.background": "#999999",
+    "statusBar.foreground": "#eeeeee",
+    "titleBar.activeBackground": "#E5E5E5",
+    "list.inactiveSelectionBackground": "#d1d1d1",
+    "tab.inactiveBackground": "#d8d8d8",
+    "tab.border": "#c1c1c1"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "tag-create:command"
+  ],
+  "diffEditor.maxComputationTime": 0,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "window.zoomLevel": 1
+}
