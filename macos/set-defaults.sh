@@ -30,5 +30,8 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -int 0
 
+# hide recents on dock
+defaults write com.apple.dock "show-recents" -bool "false"
+
 # restart dock 
 killall Dock
