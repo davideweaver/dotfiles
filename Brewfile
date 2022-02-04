@@ -28,6 +28,6 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Slack", id: 803453959
-mas "SnipperApp 2", id: 1469182443
+mas "SnippetsLab", id: 1006087419
 mas "Trello", id: 1278508951
 mas "Xcode", id: 497799835
