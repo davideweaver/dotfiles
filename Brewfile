@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'mongodb/brew'
 
 brew 'ack'
 brew 'wget'
@@ -11,6 +12,7 @@ brew 'argocd'
 brew 'kubeseal'
 brew 'watch'
 brew 'jq'
+brew 'mongodb-community@5.0'
 
 cask 'hyper'
 cask 'postman'
