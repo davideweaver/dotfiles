@@ -19,7 +19,6 @@ fi
 \. "$NVM_DIR/nvm.sh"
 
 # set default node version
-# . "$HOME/.nvm/nvm.sh"
 nvm install 16.13.1
 nvm use 16.13.1
 nvm alias default 16.13.1
