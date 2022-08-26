@@ -18,7 +18,7 @@ cask 'hyper'
 cask 'postman'
 cask 'signal'
 cask 'visual-studio-code'
-cask 'spectacle'
+cask 'rectangle'
 cask 'runjs'
 cask 'docker'
 
