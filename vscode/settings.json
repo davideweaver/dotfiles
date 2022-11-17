@@ -85,5 +85,11 @@
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "window.zoomLevel": 1,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "projectManager.git.baseFolders": [
+    "/users/dweaver/Working/ScheduleEngine",
+    "/users/dweaver/Playing/davideweaver",
+    "/users/dweaver/Playing/appkitco"
+  ],
+  "workbench.startupEditor": "none",
+  "redhat.telemetry.enabled": false
 }
