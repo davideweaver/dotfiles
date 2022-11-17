@@ -14,7 +14,8 @@ brew 'kubeseal'
 brew 'watch'
 brew 'jq'
 brew 'mongodb-community@5.0'
-brew 'ngrok'
+brew 'chruby'
+brew 'ruby-install'
 
 cask 'hyper'
 cask 'postman'
@@ -23,6 +24,8 @@ cask 'visual-studio-code'
 cask 'rectangle'
 cask 'runjs'
 cask 'docker'
+cask 'shottr'
+cask 'raycast'
 
 mas "1Password 7", id: 1333542190
 mas "Affinity Designer", id: 824171161
