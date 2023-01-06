@@ -16,6 +16,7 @@ brew 'jq'
 brew 'mongodb-community@5.0'
 brew 'chruby'
 brew 'ruby-install'
+brew 'python'
 
 cask 'hyper'
 cask 'postman'
@@ -30,10 +31,12 @@ cask 'raycast'
 mas "1Password 7", id: 1333542190
 mas "Affinity Designer", id: 824171161
 mas "ColorSlurp", id: 1287239339
+mas "Hand Mirror", id: 1502839586
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
+mas "Reeder", id: 1529448980
 mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Slack", id: 803453959
 mas "SnippetsLab", id: 1006087419
-mas "Trello", id: 1278508951
+mas "WireGuard", id: 1451685025

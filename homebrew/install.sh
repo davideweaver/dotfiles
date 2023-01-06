@@ -32,7 +32,7 @@ then
 
   if ! [ -d "/usr/local/homebrew" ]
   then
-    echo "  Installing Homebrew for x86"
+    echo "> installing Homebrew for x86"
 
     mkdir homebrewx86
     cd homebrewx86
@@ -41,7 +41,7 @@ then
     cd -
     rm -rf homebrewx86
 
-    echo " Installing x86 node-rdkafka dependencies"
+    echo "> installing x86 node-rdkafka dependencies"
 
     arch -x86_64 /usr/local/homebrew/bin/brew install lz@1.9.4
     arch -x86_64 /usr/local/homebrew/bin/brew install librdkafka@1.9.2

@@ -64,6 +64,9 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[python]": {
+    "editor.defaultFormatter":"ms-python.vscode-pylance"
+  },
   "gitlens.gitCommands.skipConfirmations": [
     "fetch:command",
     "stash-push:command",
@@ -91,5 +94,8 @@
     "/users/dweaver/Playing/appkitco"
   ],
   "workbench.startupEditor": "none",
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
