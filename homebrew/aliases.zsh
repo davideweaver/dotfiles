@@ -7,5 +7,6 @@ then
   alias brew_x86='arch -x86_64 /usr/local/homebrew/bin/brew'
 
   # tells npm how to find x86 libs when building node-rdkafka
-  export LDFLAGS="-L/usr/local/homebrew/Cellar/lz4/1.9.4/lib"
+  # should only be used when it's needed, NOT all the time
+  # export LDFLAGS="-L/usr/local/homebrew/Cellar/lz4/1.9.4/lib"
 fi
