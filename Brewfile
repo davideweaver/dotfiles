@@ -17,6 +17,7 @@ brew 'mongodb-community'
 brew 'chruby'
 brew 'ruby-install'
 brew 'python'
+brew 'qemu'
 
 cask 'hyper'
 cask 'postman'
