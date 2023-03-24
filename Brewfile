@@ -18,6 +18,7 @@ brew 'chruby'
 brew 'ruby-install'
 brew 'python'
 brew 'qemu'
+brew 'mkcert'
 
 cask 'hyper'
 cask 'postman'
