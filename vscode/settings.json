@@ -90,8 +90,8 @@
   "window.zoomLevel": 1,
   "projectManager.git.baseFolders": [
     "/users/dweaver/Working/ScheduleEngine",
-    "/users/dweaver/Playing/davideweaver",
-    "/users/dweaver/Playing/appkitco"
+    "/users/dweaver/Projects/davideweaver",
+    "/users/dweaver/Projects/appkitstudio"
   ],
   "workbench.startupEditor": "none",
   "redhat.telemetry.enabled": false,
