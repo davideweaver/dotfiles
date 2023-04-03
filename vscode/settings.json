@@ -65,7 +65,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
-    "editor.defaultFormatter":"ms-python.vscode-pylance"
+    "editor.defaultFormatter": "ms-python.vscode-pylance"
   },
   "gitlens.gitCommands.skipConfirmations": [
     "fetch:command",
@@ -97,5 +97,6 @@
   "redhat.telemetry.enabled": false,
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "security.workspace.trust.untrustedFiles": "open"
 }
