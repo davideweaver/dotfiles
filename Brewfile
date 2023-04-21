@@ -19,6 +19,7 @@ brew 'ruby-install'
 brew 'python'
 brew 'qemu'
 brew 'mkcert'
+brew 'rust'
 
 cask 'hyper'
 cask 'postman'
