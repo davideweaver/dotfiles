@@ -9,6 +9,7 @@ brew 'wget'
 brew 'mackup'
 brew 'mas'
 brew 'kubectl'
+brew 'kubectx'
 brew 'argocd'
 brew 'kubeseal'
 brew 'watch'
@@ -31,7 +32,6 @@ cask 'docker'
 cask 'shottr'
 cask 'raycast'
 
-mas "1Password 7", id: 1333542190
 mas "Affinity Designer", id: 824171161
 mas "ColorSlurp", id: 1287239339
 mas "Dato", id: 1470584107

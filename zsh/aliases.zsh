@@ -3,6 +3,7 @@ alias reload!='. ~/.zshrc'
 alias cls='clear' # Good 'ol Clear Screen command
 
 alias k='kubectl'
+alias kx='kubectx'
 alias k-k3s='k config use-context k3s'
 alias k-microk8s='k config use-context microk8s'
 alias k-se-int='k config use-context se-int'

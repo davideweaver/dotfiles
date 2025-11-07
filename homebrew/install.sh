@@ -35,7 +35,7 @@ then
 
     echo "> installing x86 node-rdkafka dependencies"
 
-    arch -x86_64 /usr/local/homebrew/bin/brew install lz@1.9.4
+    arch -x86_64 /usr/local/homebrew/bin/brew install lz4
     arch -x86_64 /usr/local/homebrew/bin/brew install librdkafka@1.9.2
   fi
 

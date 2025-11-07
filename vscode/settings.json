@@ -4,8 +4,8 @@
   "git.confirmSync": false,
   "workbench.iconTheme": "vs-minimal",
   "workbench.tree.renderIndentGuides": "none",
-  "editor.formatOnSave": false,
-  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "editor.rulers": [120],
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -23,7 +23,6 @@
   },
   "mochaExplorer.nodePath": "/Users/dweaver/.nvm/versions/node/v12.19.0/bin/node",
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "none",
   "code-runner.defaultLanguage": "javascript",
@@ -67,6 +66,9 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.vscode-pylance"
   },
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
   "gitlens.gitCommands.skipConfirmations": [
     "fetch:command",
     "stash-push:command",
@@ -87,16 +89,71 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
-  "window.zoomLevel": 1,
   "projectManager.git.baseFolders": [
     "/users/dweaver/Working/ScheduleEngine",
     "/users/dweaver/Projects/davideweaver",
-    "/users/dweaver/Projects/appkitstudio"
+    "/users/dweaver/Projects/appkitstudio",
+    "/users/dweaver/Working/ServiceTitan",
+    "/users/dweaver/Projects/crypto",
+    "/users/dweaver/Projects/ai"
   ],
   "workbench.startupEditor": "none",
   "redhat.telemetry.enabled": false,
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "sonarlint.connectedMode.connections.sonarqube": [
+    {
+      "serverUrl": "https://sonarqube.st.dev",
+      "connectionId": "https-sonarqube-st-dev-"
+    }
+  ],
+  "sonarlint.rules": {
+    "csharpsquid:S2094": {
+      "level": "off"
+    },
+    "typescript:S5256": {
+      "level": "off"
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "database-client.autoSync": true,
+  "debug.onTaskErrors": "abort",
+  "sonarlint.pathToNodeExecutable": "/Users/dweaver/.nvm/versions/node/v23.3.0/bin/node",
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  "chat.mcp.discovery.enabled": {
+    "claude-desktop": true,
+    "windsurf": true,
+    "cursor-global": true,
+    "cursor-workspace": true
+  },
+  "chat.agent.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "mdb.mcp.server": "prompt",
+  "docker.extension.enableComposeLanguageServer": false,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.accessibilitySupport": "off"
 }
